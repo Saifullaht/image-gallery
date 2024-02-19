@@ -1,0 +1,34 @@
+#main{
+    background-image: url(o-ADVENTURE-facebook.jpg );
+ height: 95vh; background-size: cover; background-position: center;
+}
+ul{
+    list-style: none; float: right; margin-top: -40px; margin-left: 120px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none; color: rgb(7, 4, 4); padding: 5px 20px; border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: rgb(19, 13, 13); color: white;
+}
+#logo{
+    width: 50%;
+}
+ul li.active a{
+    background-color: rgb(19, 13, 13); color: white; transition: 0.6 ease;
+}
+.title{
+    position: absolute; top: 40%; left: 37%;
+}
+.title1{
+    position: absolute; top: 45%; left: 35%;
+}
+.title2{
+    position: absolute; top: 58%; left: 41%; 
+}
+.title3{
+    background-color: black; color: aliceblue; border-radius: 10px; cursor: wait;
+}
